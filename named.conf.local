@@ -1,0 +1,6 @@
+zone "sae.jing.fr" IN {
+type master;
+file "/etc/bind/db.sae.jing.fr";
+allow-update { none; };
+allow-query{any;};
+};

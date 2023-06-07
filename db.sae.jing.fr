@@ -1,0 +1,14 @@
+; sae.jing.fr
+$TTL    604800
+@       IN      SOA     sae.jing.fr. root.sae.jing.fr. (
+                        2               ; Serial
+                        604800          ; Refresh
+                        86400           ; Retry
+                        2419200         ; Expire
+                        604800 )        ; Negative Cache TTL
+;
+@               IN      NS      sae.jing.fr.
+@               IN      A       10.202.0.128
+test1           IN      A       10.202.4.1
+test2           IN      A       10.202.6.1
+webgui          IN      A       10.202.19.253
